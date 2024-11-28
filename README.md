@@ -29,7 +29,6 @@ application that manages warehouse inventory. stores all product information, di
 -customtkinter
 -sqlite3
 -PIL
--pyinstaller
 
 ## Credits
 This project was developed by [Javkhlan](https://github.com/Skitarii11) as a Personal project
