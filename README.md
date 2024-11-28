@@ -1,15 +1,20 @@
-inventory management application:
+# inventory management application :
 
 application that manages warehouse inventory. stores all product information, displays stored product information in "all products" tab, adds new product to store in "add new product" tab, manipulates stored product information and keeps track of how many of that product was sold in "inventory" tab, displays and calculates income and profit in "calculation" tab.
 
-menu tabs on the left :
+![all products](./Capture.PNG)
+![inventory](./Capture1.PNG)
+![add new product](./Capture2.PNG)
+![calculation](./Capture3.PNG)
+
+## menu tabs :
 
 -all products
 -inventory
 -add new product
 -calculation
 
-what each tab displays on the right:
+## what each tab displays on the right:
 
 -all products: displays all products in highlighted vertical list. each listed product horizontally shows its image, name, price and current quantity.
 
@@ -19,8 +24,12 @@ what each tab displays on the right:
 
 -calculation: display each product that was sold in highlighted list. each highlighted product shows name, sold quantity, original quantity, original price, cargo fee, selling price, income(sold quantity x selling price), profit(income - original quantity(original price + cargo fee))
 
-dependency :
+## dependency :
 -tkinter
 -customtkinter
 -sqlite3
 -PIL
+-pyinstaller
+
+## Credits
+This project was developed by [Javkhlan](https://github.com/Skitarii11) as a Personal project
